@@ -13,7 +13,7 @@ Skill Assessment / Level 1 - Frontend Developer/ Customerlabs.Inc (React | Node 
 - completed code is attached in this resporitoy if something does kindly contact me and I can check it and guide on it further
 - In addition to  the requirement I added cancel button function which will reset the segement to correct and reFill
 
-- completed the assigment as requested and below is the screenshot of success message of sending data to the server and screenshot from the webhook.site
+completed the assigment as requested and below is the screenshot of success message of sending data to the server and screenshot from the webhook.site
 ![image](https://github.com/Ivaanajo/Project-customerLabs/assets/71235058/4863d991-d0fd-41d8-8d60-d01f678c55cd)
 ![image](https://github.com/Ivaanajo/Project-customerLabs/assets/71235058/15d64fd1-9a58-4143-be96-c55a7b4fae6e)
 
