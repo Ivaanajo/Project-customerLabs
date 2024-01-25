@@ -36,7 +36,16 @@ const Segment = () => {
     const updatedSchemas = [...added]
     updatedSchemas[index] = newValue
     setAdded(updatedSchemas)
-  };
+  }
+
+  const cancel = () => {
+    setName("");
+    setAdded([]);
+    setSelected("");
+    setResults([]);
+    setDisable([]);
+    setMessage("");
+  }
 
   const dispatch = () => {
     const segmentData = {
@@ -115,7 +124,7 @@ const Segment = () => {
       <button type="button" className="btn btn-success" onClick={dispatch}>
         Save the Segment
       </button>
-      <button className="cancel-btn" >
+      <button className="cancel-btn" onClick={cancel}>
         Cancel
       </button>
       {message && <p>{message}</p>}
