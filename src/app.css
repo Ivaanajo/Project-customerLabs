@@ -1,0 +1,121 @@
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal.show {
+    display: flex;
+  }
+  
+  .modal-dialog {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .modal-content {
+    padding: 20px;
+  }
+  
+  .modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .modal-body {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input,
+  select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+  }
+  
+  button {
+    padding: 8px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .modal-right-corner .modal-dialog {
+    margin: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+  }
+
+  .cancel-btn {
+    background-color: #fff;
+    color: #db3466;
+    border: 1px solid #3498db;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-left: 10px; /* Add margin to create space between buttons */
+  }
+  
+  .added-schema {
+    border: 2px solid #3498db;
+    padding: 8px;
+    border-radius: 3px;
+    width: 100%; /* Set the width to 100% */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  
+  .added-schema div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .added-schema select {
+    width: 400px;
+    margin-right: 10px;
+  }
+  
+  .added-schema button {
+    background-color: #fff;
+    color: #3dc51b;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+
+  .colorless-button {
+    background-color: transparent !important; 
+    border: 1px solid rgb(55, 57, 204) !important;      
+    color: inherit !important;
+    position: absolute;
+  top: 50;
+  left: 50;
+  margin: 50px;               
+  }
+  
+  
+  
