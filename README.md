@@ -1,7 +1,7 @@
 # Project-customerLabs
 Skill Assessment / Level 1 - Frontend Developer/ Customerlabs.Inc (React | Node | Express | Bootstrap)
 
-About the Development
+# Heading 1 # About the Development
 Index.js is the root file and id "root" is synced with index.html file to render the react code
 const root = ReactDOM.createRoot(document.getElementById('root'))
 index.js also calls the app.js in the strictmode
