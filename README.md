@@ -10,7 +10,8 @@ Skill Assessment / Level 1 - Frontend Developer/ Customerlabs.Inc (React | Node 
 - segement.js as two function as per request to enter a text and create drop as needed 
 - bootstrap used for css in app.css file 
 - node express for api connection with the webhook.site
-- completed code is attached in this resporitoy if something does kindly contact me and I can check it and guide on it further 
+- completed code is attached in this resporitoy if something does kindly contact me and I can check it and guide on it further
+- In addition to  the requirement I added cancel button function which will reset the segement to correct and reFill
 
 - completed the assigment as requested and below is the screenshot of success message of sending data to the server and screenshot from the webhook.site
 ![image](https://github.com/Ivaanajo/Project-customerLabs/assets/71235058/4863d991-d0fd-41d8-8d60-d01f678c55cd)
